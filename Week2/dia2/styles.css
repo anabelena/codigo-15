@@ -127,3 +127,12 @@ background-color: darkolivegreen;
     font-size: 34px;
     text-decoration: underline;
 }
+
+.input1:required{
+    border: 1px solid red;
+}
+
+.input1:valid{
+    background-color:blueviolet;
+    color: white;
+}

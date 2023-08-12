@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Learning CSS </title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning CSS</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
     <!-- Selectores -->
-    <h1> CSS Class </h1>
-    <h3 class="selector-clase"> Welcome to the jungle </h3>
-    <p> Hi, I'm Belen </p>
-    <p id="intro-id"> I'm from Arequipa, Peru. </p>
+    <h1>CSS Class</h1>
+    <h3 class="selector-clase">Welcome to the jungle</h3>
+    <p>Hi, I'm Belen</p>
+    <p id="intro-id">I'm from Arequipa, Peru.</p>
 
     <!-- Pseudo clases  -->
-    <h2> Pseudo clases </h2>
-    <button> Boton con : hover </button>
-    <br>
-    <br>
-    <div class="pseudoclass-hover"> Hey! This is a div with :hover </div>
+    <h2>Pseudo clases</h2>
+    <button>Boton con : hover</button>
+    <br />
+    <br />
+    <div class="pseudoclass-hover">Hey! This is a div with :hover</div>
     <a class="pseudoclass-linkhover" href=""> This is a link with :hover </a>
-    <input type="text"/>
-    <h2> Hijos Pseudo </h2>
+    <input type="text" />
+    <h2>Hijos Pseudo</h2>
     <div class="hijos-pseudo">
-        <p class="p">Parrafo 1</p>
-        <p class="p">Parrafo 2</p>
-        <p class="p">Parrafo 3</p>
-        <p class="p">Parrafo 4</p>
-        <p class="p">Parrafo 5</p>
-        <p class="p">Parrafo 6</p>
+      <p class="p">Parrafo 1</p>
+      <p class="p">Parrafo 2</p>
+      <p class="p">Parrafo 3</p>
+      <p class="p">Parrafo 4</p>
+      <p class="p">Parrafo 5</p>
+      <p class="p">Parrafo 6</p>
     </div>
     <div>
-        <!-- Pseudo elementos -->
-        <h2>::before</h2>
-        <div class="prueba-before"> before </div>
-        <h2>::after</h2>
-        <div class="prueba-after"> after </div>
-        <h2>::first letter</h2>
-        <p class="prueba-firstletter"> Hey! I'm a paragraph </p>
- </div>
-        
-</body>
+      <!-- Pseudo elementos -->
+      <h2>::before</h2>
+      <div class="prueba-before">before</div>
+      <h2>::after</h2>
+      <div class="prueba-after">after</div>
+      <h2>::first letter</h2>
+      <p class="prueba-firstletter">Hey! I'm a paragraph</p>
+    </div>
+    <div>
+      <!-- Pseudo clase de validacion -->
+      <form>
+        <input class="input1" type="text" placeholder="First name" required/>
+        <input class="input1" type="text" placeholder="Middle name" />
+        <input class="input1" type="text" placeholder="Apellido" required> 
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
 </html>
