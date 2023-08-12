@@ -54,3 +54,17 @@ button:hover{
 .pseudoclass-linkhover:hover{
     text-decoration: underline;
 }
+
+.pseudoclass-linkhover:active{
+
+    font-size: 30px;
+    color: orange;
+}
+
+.hijos-seudo{
+
+}
+
+.p{
+
+}
