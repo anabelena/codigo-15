@@ -136,3 +136,55 @@ background-color: darkolivegreen;
     background-color:blueviolet;
     color: white;
 }
+
+/* Selector combinado y multiple */
+/* Ver especificidad - Selectores combinados tienen preferencia*/
+.padre ul li:last-child{
+    background-color: orange;
+}
+
+/* .padre ul .selectli{
+   background-color: green;
+} */
+
+.padre li:nth-child(2){
+    background-color:blue
+}
+
+/*Forma mas recomendada es usar una unica CLASE*/
+.selectli{
+    background-color: aquamarine;
+}
+
+
+/* HERENCIA */
+.container{
+    color: blue;
+    font-size: 20px;
+    border: 1px solid red;
+}
+
+/* inherit para que hijo herede propiedades del padre */
+.child{
+    border:inherit;
+    font-size: initial; /*16px*/
+}
+
+/*Cascada*/
+.miparrafo{
+    padding: 10px;
+    color: red;
+    border: 2px;
+}
+
+.miparrafo{
+    background-color: grey;
+    color: blue;
+}
+/* Unidades Absolutas = No cambian, Ejemplo pixeles */
+/* Unidades Relativas = Si cambian, Ejemplo rem vw vh */
+.caja1{
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+}
