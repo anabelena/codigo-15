@@ -26,8 +26,31 @@ button{
     background-color:cadetblue;
     padding: 15px;
     border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    border:none;
+    transition: all 1s ease;
 }
 
 button:hover{
-    background-color: rgb(170, 172, 119);
+    background-color:coral;
+}
+
+.pseudoclass-hover{
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+.pseudoclass-hover:hover{
+    
+    color: rgb(188, 143, 170);
+}
+
+.pseudoclass-linkhover{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.pseudoclass-linkhover:hover{
+    text-decoration: underline;
 }
