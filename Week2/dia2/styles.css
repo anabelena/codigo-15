@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(211, 188, 233);
 }
 
 /* Selector por elemento*/
@@ -56,12 +56,24 @@ button:hover{
 }
 
 .pseudoclass-linkhover:active{
-
     font-size: 30px;
     color: orange;
 }
 
-.hijos-seudo{
+/*.pseudoclass-linkhover:focus{
+    color: violet;
+    border: 2px solid #444;
+}*/
+
+input:active{
+    background-color: rgb(0, 8, 255);
+}
+
+input:focus{
+    background-color: brown;
+}
+
+.hijos-seudo{   
 
 }
 
