@@ -73,10 +73,57 @@ input:focus{
     background-color: brown;
 }
 
-.hijos-seudo{   
+/* Pseudoclase: Primer y ultimo hijo. */
 
+.hijos-pseudo p:first-child {
+background-color: darkolivegreen;
 }
 
-.p{
+.hijos-pseudo p:last-child{
+    background-color: black;
+}
 
+.hijos-pseudo p:nth-child(3){
+    background-color:beige;
+}
+
+.hijos-pseudo p:nth-child(4){
+    background-color:pink;
+}
+
+/* Cambiar color a todos los hijos pares */
+
+.hijos-pseudo p:nth-child(2n-1){
+
+    background-color:brown;    
+}
+
+/*before*/
+.prueba-before::before{
+    content: 'Hey!';
+    color: red;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 12px;
+    height: 12px;
+    background-color: yellow;
+    padding: 6px;
+}
+
+/*after*/
+.prueba-after::after{
+    content: 'Bye!';
+    color: green;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(43, 255, 0);
+    padding: 6px;
+}
+
+.prueba-firstletter::first-letter{
+    color: red;
+    font-size: 34px;
+    text-decoration: underline;
 }
