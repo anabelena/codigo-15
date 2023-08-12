@@ -3,7 +3,7 @@ body{
 }
 
 /* Selector por elemento*/
-h2{ 
+h1{ 
     color: azure;
     font-style: italic;
     font-size: 30px;
@@ -22,3 +22,12 @@ h2{
     color: rgb(147, 165, 42);
 }
 
+button{
+    background-color:cadetblue;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: rgb(170, 172, 119);
+}
